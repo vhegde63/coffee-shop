@@ -6,9 +6,11 @@ Feature: Inventory Counts
     When I purchase a coffee
     And I receive it
     Then I expect the inventory count to equal <count>
+    And I expect a message that says <message>
     
     Examples:
-      | number | count |
-      | 3      |  2    |
+      | number | count | message |
+      | 3      |  2    | success |
+      | 0      |  0    | failure |
     
     
