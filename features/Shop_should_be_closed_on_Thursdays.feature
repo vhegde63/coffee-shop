@@ -11,3 +11,4 @@ Feature: Shop should be closed on Thursdays
     Then I expect the inventory count to be the same 
     And I expect an error message to be displayed when trying to order 
     And Make a change
+    And make Make a change
