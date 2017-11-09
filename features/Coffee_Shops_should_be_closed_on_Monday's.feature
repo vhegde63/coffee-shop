@@ -7,5 +7,8 @@ Feature:Coffee Shops should be closed on Mondays
     Given the the customer has a menu order
     When the customer requests a coffee order
     And the date is Monday
-    Then customers should expect an error message to be displayed when trying to order online 
+    Then customers should expect an error message to be displayed when trying to order in the store 
+    
+    
+    
     
