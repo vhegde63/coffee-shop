@@ -1,5 +1,5 @@
 
-Feature:Coffee Shops should be closed on Monday's
+Feature:Coffee Shops should be closed on Mondays
   <Some interesting description here>
 
   Scenario:Based on low coffee sales, coffee shops should be closed
