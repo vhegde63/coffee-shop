@@ -6,3 +6,4 @@ Feature:the coffee shop should be closed on tuesdays
     <Some interesting scenario steps here>
     Given that the menu is given to the customer has a menu order
     When order the customer requests a coffee ryan
+    test
