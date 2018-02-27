@@ -9,5 +9,8 @@ Feature:  Shop should be closed on Tuesdays
     When the date is Tuesday
     Then I expect the inventory count to equal previous count
 
-  Scenario: The shop should be closed on Sunday 
-    Given a menu
+  Scenario: The POS should not acceptence payment when account it over drawn
+    Given the customer has a menu order
+    When they purchase a coffee
+    And the account is overdrawn
+    Then I expect an error message to be displayed when trying to order
